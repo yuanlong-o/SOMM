@@ -1,5 +1,5 @@
 # A Systematically Optimized Miniaturized Mesoscope (SOMM) for large-scale calcium imaging in freely moving mice
-<img src="img/deepwonder_logo.png" width="800" align="center">
+<img src="img/SOMM_logo.png" width="800" align="center">
 Implementation for deep widefield neuron finder (DeepWonder)
 
 ![Imaging modality](https://img.shields.io/badge/Imaging%20modality-Wide--field%20Single--photon-brightgreen)  ![Purpose](https://img.shields.io/badge/Purpose-Neuron%20analysis-orange)  
