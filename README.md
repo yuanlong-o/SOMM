@@ -53,7 +53,7 @@ In this part we introduce the DOE optimization in SOMM.
 ### **💡** Dual-color SOMM <a name="dual_color"></a>
 * The mechanical design for dual-color SOMM can be found in Mechanical\Dual_Color_SOMM folder. Require Solidworks >= v.2022.
  
-### **💡** Dual-color SOMM <a name="soft_pcb"></a>
+### **💡** Soft PCB design <a name="soft_pcb"></a>
 * The soft PCB design for dual-color SOMM can be found in TODO folder. Require Solidworks >= v.2022.
  
 ## 🤝 Processing code <a name="processing"></a>
