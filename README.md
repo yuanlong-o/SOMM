@@ -11,9 +11,10 @@ Implementation for deep widefield neuron finder (DeepWonder)
     1. [Generate Zernike polynomals](#zernike)
     2. [Generate NAOMi samples](#naomi)
     3. [Run the optimization](#run)
- 3. [Mechanical part details](#Train)
+ 3. [Mechanical and electrical part details](#Train)
     1. [Realistic widefield capture generation](#single_color)
     2. [Background removal network training](#dual_color)
+    3. [Soft PCB design](#soft_pcb)
  4. [Processing code](#processing)
     1. [Deconvolution](#deconv)
     2. [DeepWonder](#deepwonder)
@@ -47,18 +48,25 @@ In this part we introduce the DOE optimization in SOMM.
 ## **🔁** Mechanical part details <a name="Train"></a>
 
 ### **💡** SOMM <a name="single_color"></a>
-* (some discription)
+* The mechanical design for single-color SOMM can be found in Mechanical\SOMM folder. Require Solidworks >= v.2022.
 
 ### **💡** Dual-color SOMM <a name="dual_color"></a>
-* (some discription)
+* The mechanical design for dual-color SOMM can be found in Mechanical\Dual_Color_SOMM folder. Require Solidworks >= v.2022.
+ 
+### **💡** Dual-color SOMM <a name="soft_pcb"></a>
+* The soft PCB design for dual-color SOMM can be found in TODO folder. Require Solidworks >= v.2022.
  
 ## 🤝 Processing code <a name="processing"></a>
 ### **📝** Deconvolution <a name="Citation"></a>
+* We use L2 regularized deconvolution for each patches. A demo data and demo script can be found in Processing\Deconvolution.
 
 ### **📝** DeepWonder <a name="deepwonder"></a>
+* We use DeepWonder for extracting neuronal spatial and temporal profiles from deconvolved videos. The full processing code can be found in Processing\DeepWonder. A standalone readme containing environment setup and running instruments can be found in Processing\DeepWonder\readme.md
 
 ## 🤝 Contact <a name="Information"></a>
 ### **📝** Citation <a name="Citation"></a>
-
+'''
+Yuanlong Zhang*, Lekang Yuan*, Jiamin Wu, Tobias Nöbauer, Rujin Zhang, Guihua Xiao, Mingrui Wang, Hao Xie, Qionghai Dai‡, and Alipasha Vaziri‡, "A Systematically Optimized Miniaturized Mesoscope (SOMM) for large-scale calcium imaging in freely moving mice", bioRxiv 2022.
+'''
 ### **📝** Email <a name="Email"></a>
 We are pleased to address any questions regarding the above tools through emails (yuanlongzhang94@gmail.com).
