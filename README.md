@@ -65,8 +65,8 @@ In this part we introduce the DOE optimization in SOMM.
 
 ## 🤝 Contact <a name="Information"></a>
 ### **📝** Citation <a name="Citation"></a>
-'''
+
 Yuanlong Zhang*, Lekang Yuan*, Jiamin Wu, Tobias Nöbauer, Rujin Zhang, Guihua Xiao, Mingrui Wang, Hao Xie, Qionghai Dai‡, and Alipasha Vaziri‡, "A Systematically Optimized Miniaturized Mesoscope (SOMM) for large-scale calcium imaging in freely moving mice", bioRxiv 2022.
-'''
+
 ### **📝** Email <a name="Email"></a>
 We are pleased to address any questions regarding the above tools through emails (yuanlongzhang94@gmail.com).
